@@ -12,6 +12,10 @@
   },
   "dependencies": {
     "js-yaml": "^3.7.0",
+    "node-sass": "^4.5.0",
+    "pug": "^2.0.0-beta10",
+    "pug-loader": "^2.3.0",
+    "scss-loader": "0.0.1",
     "vue": "^2.1.0"
   },
   "devDependencies": {

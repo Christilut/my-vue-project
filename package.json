@@ -5,11 +5,13 @@
   "author": "Christiaan Maks <christilut@gmail.com>",
   "private": true,
   "scripts": {
+    "generateContent": "node build/contentgenerator.js",
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "js-yaml": "^3.7.0",
     "vue": "^2.1.0"
   },
   "devDependencies": {

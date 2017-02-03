@@ -26,6 +26,8 @@ cp('-R', 'static/*', assetsPath)
 rm('-rf', path.join(assetsPath, 'root'))
 cp('-R', 'static/root/*', config.build.assetsRoot)
 
+exec('node ./build/contentgenerator.js')
+
 webpack(webpackConfig, function (err, stats) {
   spinner.stop()
   if (err) throw err
